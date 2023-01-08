@@ -3,6 +3,29 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+   
+    <div class="ism-slider" data-play_type="loop" data-image_fx="zoompan" id="my-slider">
+        <ol>
+            <li>
+                <img src="~/image/slides/bora-bora-685303_1280.jpg" />
+            </li>
+            <li>
+                <img src="~/image/slides/city-690332_1280.jpg" />
+            </li>
+            <li>
+                <img src="~/image/slides/pier-569314_1280.jpg" />
+            </li>
+            <li>
+                <img src="~/image/slides/pool-690034_1280.jpg" />
+            </li>
+            <li>
+                <img src="~/image/slides/pool-720697_1280.jpg" />
+            </li>
+        </ol>
+    </div>
 </div>
+@section localCSS{
+    <link href="http://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet" type="text/css">
+    <link href="~/css/my-slider.css" rel="stylesheet" />
+    <script src="~/js/ism-2.2.min.js"></script>
+}
